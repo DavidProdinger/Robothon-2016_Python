@@ -1,0 +1,13 @@
+import serbus, time
+
+class Arm:
+    def turn(self):
+        bus = serbus.I2CDev(1)
+	bus.open()
+	bus.write(10, [22, 0x10, 5])
+	bus.close()
+    def grep(dir, self):
+	bus = serbus.I2CDev(1)
+	bus.open()
+	bus.write(a, [11, 0x100, 5, 200])
+	bus.close()
