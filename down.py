@@ -3,6 +3,6 @@ from Arm import Arm
 
 arm = Arm()
 
-arm.turnLeft()
-time.sleep(2)
-#arm.turnStop()
+arm.down()
+time.sleep(8)
+arm.upDownStop()

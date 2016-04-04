@@ -36,7 +36,7 @@ while True:
               gear.drive()
               time.sleep(2.2)
               gear.turnAround(1)       
-              time.sleep(3)
+              time.sleep(2.8)
               ifTurnAround = False
           else: 
              if changed:
@@ -47,7 +47,7 @@ while True:
               gear.drive()
               time.sleep(2.2)
               gear.turnAround(2)
-              time.sleep(3)
+              time.sleep(2.8)
               ifTurnAround = False
           else:
               if changed:
