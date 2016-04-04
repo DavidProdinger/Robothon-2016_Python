@@ -1,2 +1,2 @@
-# Robothon-2016_Python
+# Robothon-2016
 Program from the If-Schleife-Team
